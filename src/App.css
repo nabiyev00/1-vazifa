@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+::-webkit-scrollbar{
+  width: 10px;
+}
+::-webkit-scrollbar-thumb{
+  background-color: #414141;
+}
+.container {
+  width: 1000px;
+  margin: 0 auto;
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header h1 {
+  font-size: 42px;
+  font-family: 'Marck Script', cursive;
+}
+
+.menu {
+  margin-top: 20px;
+}
+
+.header-link {
+  text-decoration: none;
+  margin: 0 20px;
+  line-height: 32px;
+  padding: 0 10px;
+  color: #AFAFAF;
+}
+.header-link:hover{
+  color: #414141;
+}
+
+.header-link :hover {
+  color: #414141;
+}
+
+.active-link {
+  text-decoration: none;
+  margin: 0 20px;
+  line-height: 32px;
+  padding: 0 10px;
+  color: #414141;
+}
+
+.image-container {
+  margin-top: 50px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.image-block {
+  width: 32%;
+  margin: 5px;
+}
+
+.image-block img {
+  width: 100%;
+}
+.about-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.my-img{
+  position: relative;
+  width: 100%;
+  height: 78vh;
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+}
+.my-img .img-border{
+  position: absolute;
+}
+.my-img .img-border img{
+  
+  width: 500px;
+  z-index: 1;
+}
+.my-img .img{
+  position: absolute;
+  margin-top: 91px;
+  z-index: -1;
+}
+.my-img .img img{
+  width: 323px;
+}
+.about-me{
+  padding: 0 280px;
+  text-align: center;
+}
+.about-me h2{
+  font-size: 30px;
+  font-weight: 500;
+}
+.about-me p{
+  font-size: 13px;
+}
+.contact-container{
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.contact-container .info{
+  text-align: center;
+}
+.info-messenger h2{
+  color: #414141;
+  margin: 20px 0;
+}
+.info-messenger h3{
+  font-size: 15px;
+}
+.info-messenger h3 a{
+  color: #414141;
+  text-decoration: none;
+}
+.contact-form{
+  padding: 20px 300px;
+}
+
+.contact-form form input{
+  width: 100%;
+  padding: 3px 3px 3px 24px;
+  background-color: #F4F3F2;
+  border: none;
+  min-height: 34px;
+  margin: 4px 0;
+  font-size: 13px;
+  color: #414141;
+}
+.contact-form form textarea{
+  min-width: 100%;
+  height: 126px;
+  padding: 5px 3px 3px 24px;
+  background-color: #F4F3F2;
+  border: none;
+  margin: 4px 0;
+  font-size: 13px;
+  color: #414141;
+  resize: none;
+}
+.contact-form .form-btn{
+  background-color: transparent;
+  padding: 3px 4px;
+  cursor: pointer;
+  float: right;
+  border: none;
+  outline: none;
+  
+}
+.form-btn:hover{
+  color: rgb( 68,194,188);
+}
+.footer{
+  width: 100%;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+
+}
+.footer .footer-messengers{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  list-style: none;
+  margin-top: 20px;
+}
+.footer .footer-messengers li{
+  padding: 0 4px;
+}
